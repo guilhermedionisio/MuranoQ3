@@ -30,6 +30,8 @@ Além disso, foi criada uma Classe `Button` para ser uma Classe Abstrata das Sub
 
 Por fim, a implementação da Classe `Site` fica mais simples pois só será necessário uma instância da Fábrica Abstrata de botões (`ButtonFactory`) que será configurada à depender dos parâmetros do Cliente a partir da função `configure()`. Ao fim da configuração, o botão pode ser instanciado da forma adequada para o Cliente.
 
+![Classe Site](images/b3.png)
+
 ## Criação de Padrão Adequado
 
 Como exemplificado na Seção [Padrões de Projeto](#padrões-de-projeto), o padrão Singleton garante que apenas uma instância da classe seja criada e que essa única instância seja acessível globalmente. Quando outras partes do sistema solicitam uma instância, elas recebem a mesma instância já criada anteriormente. Por isso, esse é o padrão ideal para atender as demandas da Classe Banco de Dados no cenário descrito.
